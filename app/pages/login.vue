@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import EmailAuthForm from '~/components/auth/EmailAuthForm.vue';
 import FormDivider from '~/components/forms/FormDivider.vue';
+import ThirdPartyAuth from '~/components/auth/ThirdPartyAuth.vue';
 
 definePageMeta({
   layout: 'clean',
@@ -22,6 +23,7 @@ definePageMeta({
       >
         <template #text>Otras opciones</template>
       </FormDivider>
+      <ThirdPartyAuth/>
       <p class="mt-10 text-center text-sm/6 text-gray-400">
         ¿No tienes una cuenta?
         {{ ' ' }}
