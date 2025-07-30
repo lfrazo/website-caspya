@@ -10,7 +10,7 @@
           <button
               class="text-caspya-pink hover:text-caspya-pink-300"
           >
-            <Icon name="tabler:brand-google" style="color: white" size="24"/>
+            <Icon name="tabler:brand-google-filled" size="32"/>
           </button>
         </div>
       </div>

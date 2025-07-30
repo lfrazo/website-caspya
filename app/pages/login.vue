@@ -24,10 +24,10 @@ definePageMeta({
         <template #text>Otras opciones</template>
       </FormDivider>
       <ThirdPartyAuth/>
-      <p class="mt-10 text-center text-sm/6 text-gray-400">
+      <p class="mt-10 text-center text-sm/6 text-white">
         ¿No tienes una cuenta?
         {{ ' ' }}
-        <a href="#" class="font-semibold text-caspya-purple-400 hover:text-caspya-purple-300">Regístrate</a>
+        <NuxtLink href="#" class="font-semibold text-caspya-pink hover:text-caspya-pink-300">Regístrate</NuxtLink>
       </p>
     </div>
   </div>
